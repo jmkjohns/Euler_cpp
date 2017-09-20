@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Common\intRoot.h"
 
 //types
 //==============================================================================
@@ -10,7 +11,7 @@ struct Sieve
 };
 
 //prototypes
-unsigned _int64 intRoot( unsigned _int64 num );
+INTROOT(unsigned _int64)
 Sieve buildSieve( unsigned _int64 num );
 
 //==============================================================================
@@ -35,23 +36,6 @@ int main( int argc, char *argv[] )
 
     //output
     std::cout << maxFactor << std::endl;
-}
-
-
-//==============================================================================
-unsigned _int64 intRoot( unsigned _int64 num )
-//==============================================================================
-{
-    unsigned _int64 root = 2;
-    unsigned _int64 quot = num / root;
-
-    while (!(root == quot) && !(quot == root + 1))
-    {
-        root = (root + quot) / 2;
-        quot = num / root;
-    }
-
-    return root;
 }
 
 
