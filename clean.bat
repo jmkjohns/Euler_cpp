@@ -4,8 +4,16 @@ del *.cpp~ 2>nul
 del *.obj 2>nul
 del *.bat~ 2>nul
 del *.h~ 2>nul
+del *.txt~ 2>nul
 del Common\*.exe 2>nul
 del Common\*.cpp~ 2>nul
 del Common\*.obj 2>nul
 del Common\*.bat~ 2>nul
 del Common\*.h~ 2>nul
+del Common\*.txt~ 2>nul
+del Resources\*.exe 2>nul
+del Resources\*.cpp~ 2>nul
+del Resources\*.obj 2>nul
+del Resources\*.bat~ 2>nul
+del Resources\*.h~ 2>nul
+del Resources\*.txt~ 2>nul
