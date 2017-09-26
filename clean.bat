@@ -5,6 +5,7 @@ del *.obj 2>nul
 del *.bat~ 2>nul
 del *.h~ 2>nul
 del *.txt~ 2>nul
+del *.txt 2>nul
 del Common\*.exe 2>nul
 del Common\*.cpp~ 2>nul
 del Common\*.obj 2>nul
